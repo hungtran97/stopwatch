@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+}
+.background {
+  background-image: url("background.svg");
+  background-color: #3A3C50;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.count-time {
+  width: 521px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.block {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  background-color: #FFF;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.number {
+  font-size: 70px;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+.text {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+.title {
+  text-align: center;
+  font-size: 70px;
+  color: #FFF;
+  padding-top: 50px;
+}
+.info {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  color: #FFF;
+}
+a {
+  text-decoration: none;
+  color: #42f4ee;
+}
+.desc {
+  color: #8da0a8;
+  margin: 10px;
+}
